@@ -9,6 +9,7 @@ price float(7,2),
 stock_quantity integer(10),
 PRIMARY KEY (id) 
  );
+ USE bamazon;
  INSERT into products (product_name, department_name, price, stock_quantity)
  VALUES ("charger", "electronics", 10, 100);
  
@@ -38,4 +39,6 @@ PRIMARY KEY (id)
 
  INSERT into products (product_name, department_name, price, stock_quantity)
  VALUES ("q-tips", "hygiene", 1, 100);
+ 
+ SELECT * FROM products;
  
